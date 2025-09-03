@@ -22,7 +22,7 @@ const CareerJourney = () => {
     return () => observer.disconnect();
   }, []);
 
-  const experiences = [
+   const experiences = [
     {
       company: "Amazon",
       role: "People Analytics Analyst",
