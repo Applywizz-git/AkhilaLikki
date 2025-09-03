@@ -29,7 +29,6 @@ const EducationSection = () => {
       field: "Information Systems",
       university: "Wilmington University",
       location: "Delaware, USA",
-      period: "2019 - 2021",
       gpa: "3.8/4.0",
       description: "Specialized in data analytics, systems integration, and enterprise technology solutions with focus on HR information systems.",
       highlights: [
@@ -46,7 +45,6 @@ const EducationSection = () => {
       field: "Computer Science & Engineering",
       university: "SCIENT Institute of Technology",
       location: "Hyderabad, India",
-      period: "2015 - 2019",
       gpa: "First Class",
       description: "Foundation in computer science fundamentals with emphasis on software development, data structures, and algorithmic thinking.",
       highlights: [
@@ -105,10 +103,6 @@ const EducationSection = () => {
               {/* Details */}
               <div className="space-y-4 mb-6">
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-                  <div className="flex items-center space-x-2">
-                    <Calendar className="w-4 h-4" />
-                    <span>{edu.period}</span>
-                  </div>
                   <div className="flex items-center space-x-2">
                     <MapPin className="w-4 h-4" />
                     <span>{edu.location}</span>
