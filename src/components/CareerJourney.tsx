@@ -23,71 +23,98 @@ const CareerJourney = () => {
   }, []);
 
    const experiences = [
-    {
-      company: "Amazon",
-      role: "People Analytics Analyst",
-      type: "Full-time",
-      duration: "2022 - Present",
-      location: "Seattle, WA",
-      logo: "https://logo.clearbit.com/amazon.com",
-      description: "Leading advanced people analytics initiatives to drive strategic HR decisions across global operations.",
-      achievements: [
-        "Developed geo-based attrition analysis reducing turnover by 7%",
-        "Built executive dashboards serving 500+ managers",
-        "Implemented predictive models for workforce planning",
-        "Led cross-functional teams for data-driven DEI initiatives"
-      ],
-      technologies: ["Tableau", "SQL", "Redshift", "Workday", "Python", "AWS"],
-      impact: {
-        icon: TrendingUp,
-        value: "7% reduction",
-        metric: "in attrition rate"
-      }
-    },
-    {
-      company: "QVC",
-      role: "Workday Analyst",
-      type: "Full-time",
-      duration: "2021 - 2022",
-      location: "West Chester, PA",
-      logo: "https://logo.clearbit.com/qvc.com",
-      description: "Specialized in Workday HCM optimization, focusing on compensation automation and reporting excellence.",
-      achievements: [
-        "Automated compensation processes reducing manual touchpoints by 30%",
-        "Designed and implemented custom Workday reports",
-        "Led Workday Studio integrations for payroll systems",
-        "Maintained 100% SLA compliance for critical HR processes"
-      ],
-      technologies: ["Workday HCM", "Workday Studio", "EIB", "Compensation Module", "REST APIs"],
-      impact: {
-        icon: Users,
-        value: "30% reduction",
-        metric: "in manual processes"
-      }
-    },
-    {
-      company: "Way2Online",
-      role: "HR Operations Intern",
-      type: "Internship",
-      duration: "2020 - 2021",
-      location: "Hyderabad, India",
-      logo: "https://logo.clearbit.com/way2online.com",
-      description: "Foundation role in HR operations, building expertise in data analysis and process optimization.",
-      achievements: [
-        "Streamlined employee onboarding processes",
-        "Created performance tracking dashboards",
-        "Analyzed recruitment metrics and trends",
-        "Supported HRIS implementation projects"
-      ],
-      technologies: ["Excel", "HRIS", "Data Analysis", "Process Mapping"],
-      impact: {
-        icon: Database,
-        value: "100% accuracy",
-        metric: "in data reporting"
-      }
+  {
+    company: "QVC",
+    role: "Workday Analyst",
+    type: "Full-time",
+    duration: "Aug 2023 – Present",
+    location: "West Chester, PA",
+    logo: "https://logo.clearbit.com/qvc.com",
+    description:
+      "Workday HCM reporting & configuration across compensation, payroll, and benefits; dashboards for payroll audits and eligibility; vendor integrations and security controls.",
+    achievements: [
+      "Built interactive Workday dashboards for payroll audits and benefits eligibility, reducing manual tracking effort by ~40%",
+      "Configured and maintained annual merit & bonus plan templates with Finance/Comp, ensuring accurate and on-time payouts",
+      "Developed turnover, EEO, and headcount reports (calculated fields, matrix formats) for on-demand compliance insights",
+      "Optimized HCM business processes for job changes, compensation updates, and benefits to reduce processing errors",
+      "Integrated Workday with ServiceNow and ADP via EIB/Core Connectors, improving turnaround on ticketed HR actions",
+      "Performed quarterly audits of Workday RBAC/security groups (SOX alignment) and reduced third-party file rejection rates"
+    ],
+    technologies: [
+      "Workday HCM",
+      "Advanced Reporting",
+      "Calculated Fields",
+      "EIB",
+      "Core Connectors",
+      "ServiceNow",
+      "ADP",
+      "Workday Security (RBAC)",
+      "SOX"
+    ],
+    impact: {
+      icon: TrendingUp,
+      value: "≈40% less manual effort",
+      metric: "in payroll/benefits tracking"
     }
-  ];
-
+  },
+  {
+    company: "Amazon Development Centre",
+    role: "SDS Associate (People Analytics Analyst)",
+    type: "Full-time",
+    duration: "Oct 2019 – Jan 2022",
+    location: "Hyderabad, India",
+    logo: "https://logo.clearbit.com/amazon.com",
+    description:
+      "People analytics and reporting across headcount, attrition, mobility; Tableau dashboards; Workday custom/matrix reports; scorecard automation and release validations.",
+    achievements: [
+      "Authored/optimized 100+ Workday custom & matrix reports for HR/Finance to accelerate attrition and headcount insights",
+      "Partnered with HRBPs to surface mobility and promotion trends via Tableau dashboards for succession planning",
+      "Automated quarterly HR scorecards using Composite Reports + Excel macros, saving 50+ hours per cycle",
+      "Improved data hygiene via termination/position audits, supporting SLAs for payroll and compliance processes",
+      "Produced equity/diversity analysis for executive and audit review to support DEI objectives",
+      "Led impact assessments for bi-annual Workday releases across Core HCM, Benefits, and Compensation",
+      "Delivered Tier-1 reporting support across Benefits/Absence/Compensation with a 97% resolution SLA"
+    ],
+    technologies: [
+      "Workday Reporting",
+      "Calculated Fields",
+      "Composite Reports",
+      "Tableau",
+      "Excel (Macros/Pivots)",
+      "Redshift",
+      "SQL"
+    ],
+    impact: {
+      icon: Users,
+      value: "7% reduction",
+      metric: "in attrition (geo-specific tracking)"
+    }
+  },
+  {
+    company: "Way2Online Interactive",
+    role: "Operations Analyst Intern",
+    type: "Internship",
+    duration: "May 2017 – Jun 2018",
+    location: "Hyderabad, India",
+    logo: "https://logo.clearbit.com/way2online.com",
+    description:
+      "HR operations support: employee lifecycle data accuracy, benefits audits, payroll reconciliations, dashboards, UAT, and SOPs.",
+    achievements: [
+      "Processed employee lifecycle transactions (hire/terminate/job changes) with high data accuracy",
+      "Built monthly HR dashboards in Excel/Power BI for salary progression, training, and leave utilization",
+      "Automated employee data sync into finance/security systems with Payroll & IT, cutting mismatches by >60%",
+      "Led benefits enrollment audits to ensure correct medical coverage and avoid payroll discrepancies",
+      "Performed payroll reconciliations using advanced Excel (VLOOKUP, pivots) to resolve hours/deductions/tax flags",
+      "Supported Workday HCM UAT; authored onboarding assets, offer letters, and SOPs for scale"
+    ],
+    technologies: ["Excel", "Power BI", "Workday HCM", "HRIS", "Process Mapping", "UAT"],
+    impact: {
+      icon: Database,
+      value: ">60% reduction",
+      metric: "in downstream data mismatches"
+    }
+  }
+];
   return (
     <section id="experience" ref={sectionRef} className="py-10 px-6 bg-card/30">
       <div className="container mx-auto">
