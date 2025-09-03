@@ -36,9 +36,6 @@ const CareerJourney = () => {
       "Built interactive Workday dashboards for payroll audits and benefits eligibility, reducing manual tracking effort by ~40%",
       "Configured and maintained annual merit & bonus plan templates with Finance/Comp, ensuring accurate and on-time payouts",
       "Developed turnover, EEO, and headcount reports (calculated fields, matrix formats) for on-demand compliance insights",
-      "Optimized HCM business processes for job changes, compensation updates, and benefits to reduce processing errors",
-      "Integrated Workday with ServiceNow and ADP via EIB/Core Connectors, improving turnaround on ticketed HR actions",
-      "Performed quarterly audits of Workday RBAC/security groups (SOX alignment) and reduced third-party file rejection rates"
     ],
     technologies: [
       "Workday HCM",
@@ -71,9 +68,6 @@ const CareerJourney = () => {
       "Partnered with HRBPs to surface mobility and promotion trends via Tableau dashboards for succession planning",
       "Automated quarterly HR scorecards using Composite Reports + Excel macros, saving 50+ hours per cycle",
       "Improved data hygiene via termination/position audits, supporting SLAs for payroll and compliance processes",
-      "Produced equity/diversity analysis for executive and audit review to support DEI objectives",
-      "Led impact assessments for bi-annual Workday releases across Core HCM, Benefits, and Compensation",
-      "Delivered Tier-1 reporting support across Benefits/Absence/Compensation with a 97% resolution SLA"
     ],
     technologies: [
       "Workday Reporting",
@@ -104,8 +98,6 @@ const CareerJourney = () => {
       "Built monthly HR dashboards in Excel/Power BI for salary progression, training, and leave utilization",
       "Automated employee data sync into finance/security systems with Payroll & IT, cutting mismatches by >60%",
       "Led benefits enrollment audits to ensure correct medical coverage and avoid payroll discrepancies",
-      "Performed payroll reconciliations using advanced Excel (VLOOKUP, pivots) to resolve hours/deductions/tax flags",
-      "Supported Workday HCM UAT; authored onboarding assets, offer letters, and SOPs for scale"
     ],
     technologies: ["Excel", "Power BI", "Workday HCM", "HRIS", "Process Mapping", "UAT"],
     impact: {
