@@ -46,7 +46,7 @@ const EducationSection = () => {
       field: "Computer Science & Engineering",
       university: "SCIENT Institute of Technology",
       location: "Hyderabad, India",
-      period: "2015-2019"
+      period: "2015-2019",
       gpa: "First Class",
       description: "Foundation in computer science fundamentals with emphasis on software development, data structures, and algorithmic thinking.",
       highlights: [
